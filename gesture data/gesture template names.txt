@@ -1,0 +1,19 @@
+# Write the name of a gesture to be detected in every line. A # sign at the beginning means the line is commented.
+swipeLeft4
+swipeRight4
+swipeUp4
+swipeDown
+zoomIn
+zoomOut
+#pull2
+#push2
+wave
+#gest01
+#gest02
+#gest03
+#gest04
+#gest05
+#gest06
+#gest09
+clap
+exit

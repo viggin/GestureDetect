@@ -1,0 +1,49 @@
+# Training configuration for all gestures. 
+# If you want to add a configuration for a new gesture, first, add the gesture name starting with @ at the end of the file. 
+# In the second line, write the names of the joints which need to be checked (empty line means default joints, see ConstDef.cs).
+# In the third line, write the name of the training algorithm. Commonly the "absolute" algorithm is good. See UITemplateTrainer. LoadAlgorithmName().
+# Finally, write a name of a skeleton file containing key posture tags in each line. These files will be used to train the gesture (if you only recorded one skeleton file for the gesture, then just write one file name). Use a empty line to finish the configuration.
+
+@wave
+RightShoulder,RightElbow
+absolute
+wave_lw.keyFrame
+wave_wqr.keyFrame
+wave_yk.keyFrame
+wave_yj.keyFrame
+wave_zj.keyFrame
+
+@swipeUp4
+LeftShoulder,LeftElbow,RightShoulder,RightElbow
+absolute
+swipeUp4
+
+@swipeDown
+LeftShoulder,LeftElbow,RightShoulder,RightElbow
+absolute
+swipeDown
+
+@pull2
+RightShoulder,RightElbow
+absolute
+pull2
+
+@push2
+RightShoulder,RightElbow
+absolute
+push2
+
+@zoomOut
+LeftShoulder,LeftElbow,RightShoulder,RightElbow
+absolute
+zoomOut
+
+@exit
+LeftShoulder,LeftElbow,RightShoulder,RightElbow
+absolute
+exit
+
+@clap
+LeftShoulder,LeftElbow,RightShoulder,RightElbow
+absolute
+clap
