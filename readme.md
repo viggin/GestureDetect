@@ -1,4 +1,4 @@
-![recognition UI](recog_UI.jpg)
+![recognition UI](recog_UI.png)
 
 This project is aiming at detecting gestures and training user-defined gesture templates. The “gesture” here means a position OR a motion of the joints of body.
 
